@@ -1,0 +1,984 @@
+2024-04-18 08:27:36,146 INFO    StreamThr :19921 [internal.py:wandb_internal():86] W&B internal server running at pid: 19921, started at: 2024-04-18 08:27:36.144356
+2024-04-18 08:27:36,154 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status
+2024-04-18 08:27:36,157 INFO    WriterThread:19921 [datastore.py:open_for_write():87] open: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/run-3ad23i77.wandb
+2024-04-18 08:27:36,158 DEBUG   SenderThread:19921 [sender.py:send():378] send: header
+2024-04-18 08:27:36,191 DEBUG   SenderThread:19921 [sender.py:send():378] send: run
+2024-04-18 08:27:36,758 INFO    SenderThread:19921 [dir_watcher.py:__init__():211] watching files in: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files
+2024-04-18 08:27:36,759 INFO    SenderThread:19921 [sender.py:_start_run_threads():1099] run started: 3ad23i77 with start time 1713443256.144222
+2024-04-18 08:27:36,776 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: check_version
+2024-04-18 08:27:36,776 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: check_version
+2024-04-18 08:27:37,376 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: run_start
+2024-04-18 08:27:37,408 DEBUG   HandlerThread:19921 [system_info.py:__init__():26] System info init
+2024-04-18 08:27:37,409 DEBUG   HandlerThread:19921 [system_info.py:__init__():41] System info init done
+2024-04-18 08:27:37,409 INFO    HandlerThread:19921 [system_monitor.py:start():194] Starting system monitor
+2024-04-18 08:27:37,409 INFO    SystemMonitor:19921 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-18 08:27:37,409 INFO    HandlerThread:19921 [system_monitor.py:probe():214] Collecting system info
+2024-04-18 08:27:37,410 INFO    SystemMonitor:19921 [interfaces.py:start():190] Started cpu monitoring
+2024-04-18 08:27:37,410 DEBUG   HandlerThread:19921 [system_info.py:probe():150] Probing system
+2024-04-18 08:27:37,411 INFO    SystemMonitor:19921 [interfaces.py:start():190] Started disk monitoring
+2024-04-18 08:27:37,414 INFO    SystemMonitor:19921 [interfaces.py:start():190] Started memory monitoring
+2024-04-18 08:27:37,414 INFO    SystemMonitor:19921 [interfaces.py:start():190] Started network monitoring
+2024-04-18 08:27:37,422 DEBUG   HandlerThread:19921 [system_info.py:_probe_git():135] Probing git
+2024-04-18 08:27:37,450 DEBUG   HandlerThread:19921 [system_info.py:_probe_git():143] Probing git done
+2024-04-18 08:27:37,451 DEBUG   HandlerThread:19921 [system_info.py:probe():198] Probing system done
+2024-04-18 08:27:37,451 DEBUG   HandlerThread:19921 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.11.8', 'heartbeatAt': '2024-04-18T12:27:37.411215', 'startedAt': '2024-04-18T12:27:36.127837', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'main.ipynb', 'codePathLocal': 'main.ipynb', 'git': {'remote': 'git@github.com:samharshe/QM9-Pro.git', 'commit': '52b259d08b5afad4d383eb62b07bd9866135a8e6'}, 'email': 'samharshe29@gmail.com', 'root': '/Users/samharshe/Documents/Gerstein Lab/QM9 Pro', 'host': 'Sams-MBP-2.wireless.yale.internal', 'username': 'samharshe', 'executable': '/usr/local/Caskroom/miniconda/base/envs/GDL/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 3100, 'min': 3100, 'max': 3100}, 'cpu_freq_per_core': [{'current': 3100, 'min': 3100, 'max': 3100}], 'disk': {'/': {'total': 233.46913528442383, 'used': 212.82086563110352}}, 'memory': {'total': 8.0}}
+2024-04-18 08:27:37,451 INFO    HandlerThread:19921 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-18 08:27:37,451 INFO    HandlerThread:19921 [system_monitor.py:probe():227] Publishing system info
+2024-04-18 08:27:37,451 DEBUG   HandlerThread:19921 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-18 08:27:37,762 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/conda-environment.yaml
+2024-04-18 08:27:43,771 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/conda-environment.yaml
+2024-04-18 08:27:43,930 DEBUG   HandlerThread:19921 [system_info.py:_save_conda():219] Saving conda packages done
+2024-04-18 08:27:43,932 INFO    HandlerThread:19921 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-18 08:27:43,937 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:27:43,937 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-18 08:27:43,938 DEBUG   SenderThread:19921 [sender.py:send():378] send: files
+2024-04-18 08:27:43,938 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-04-18 08:27:44,393 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-18 08:27:44,394 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: python_packages
+2024-04-18 08:27:44,394 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 08:27:44,395 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:27:44,396 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 08:27:44,421 INFO    wandb-upload_0:19921 [upload_job.py:push():131] Uploaded file /var/folders/1m/gvn54nz553d8jxtvjvrv56kh0000gn/T/tmpzttpnkemwandb/jjt2uhjx-wandb-metadata.json
+2024-04-18 08:27:44,533 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:27:44,534 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:27:44,541 DEBUG   SenderThread:19921 [sender.py:send():378] send: telemetry
+2024-04-18 08:27:44,542 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:27:44,542 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:27:44,543 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:27:44,544 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:27:44,545 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:27:44,545 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:27:44,772 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:27:44,772 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-metadata.json
+2024-04-18 08:27:44,772 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:27:44,773 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/requirements.txt
+2024-04-18 08:27:46,548 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:27:46,776 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:27:49,067 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:27:49,068 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:27:49,069 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:27:49,070 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:27:49,073 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:27:49,073 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:27:49,073 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:27:49,073 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:27:49,788 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:27:50,800 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:27:52,157 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:27:57,177 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:27:59,064 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:27:59,065 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:27:59,065 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:27:59,065 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:27:59,067 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:27:59,067 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:27:59,068 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:27:59,069 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:27:59,404 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:27:59,405 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 08:27:59,406 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 08:27:59,850 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:00,857 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:02,636 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:04,583 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:04,585 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:04,586 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:04,586 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:04,587 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:04,587 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:04,588 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:04,589 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:04,872 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:06,887 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:08,602 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:08,894 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/config.yaml
+2024-04-18 08:28:09,262 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:09,262 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:09,263 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:09,263 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:09,264 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:09,264 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:09,264 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:09,267 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:09,901 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:10,902 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:13,540 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:13,540 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:13,540 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:13,541 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:13,542 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:13,542 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:13,543 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:13,543 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:13,904 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:14,403 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:28:14,405 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 08:28:14,405 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:14,406 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 08:28:14,906 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:18,678 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:18,683 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:18,684 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:18,684 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:18,687 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:18,687 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:18,687 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:18,688 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:18,925 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:19,693 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:20,936 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:24,702 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:27,334 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:27,336 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:27,336 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:27,336 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:27,337 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:27,338 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:27,338 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:27,338 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:27,977 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:28,978 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:29,405 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:28:29,405 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 08:28:29,406 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 08:28:30,348 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:30,348 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:30,348 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:30,350 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:30,351 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:30,354 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:30,356 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:30,357 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:30,358 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:30,983 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:30,983 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:34,897 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:34,898 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:34,898 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:34,899 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:34,909 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:34,910 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:34,910 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:34,911 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:34,912 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:34,912 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:34,912 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:34,912 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:34,991 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:35,917 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:36,000 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:36,001 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:36,001 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:36,001 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:36,002 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:36,002 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:36,002 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:36,003 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:37,000 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:37,001 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:37,421 DEBUG   SystemMonitor:19921 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-18 08:28:37,424 DEBUG   SenderThread:19921 [sender.py:send():378] send: stats
+2024-04-18 08:28:37,472 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:37,473 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:37,474 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:37,474 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:37,476 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:37,476 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:37,477 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:37,477 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:38,001 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:38,881 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:38,881 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:38,881 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:38,884 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:38,884 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:38,885 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:38,885 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:38,886 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:39,005 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:39,005 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:41,011 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:41,933 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:42,066 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:42,066 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:42,069 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:42,070 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:42,070 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:42,070 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:42,071 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:42,072 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:43,018 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:43,019 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:43,688 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:43,689 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:43,690 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:43,690 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:43,691 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:43,691 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:43,691 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:43,691 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:44,027 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:44,408 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:28:44,409 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 08:28:44,409 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 08:28:45,031 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:45,424 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:45,424 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:45,425 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:45,425 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:45,426 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:45,427 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:45,427 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:45,428 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:46,035 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:46,807 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:46,808 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:46,808 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:46,809 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:46,810 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:46,811 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:46,811 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:46,813 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:47,039 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:47,039 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:47,821 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:48,047 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:48,048 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:48,048 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:48,051 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:48,053 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:48,053 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:48,054 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:48,054 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:49,044 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:49,044 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:49,744 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:49,745 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:49,745 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:49,748 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:49,766 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:49,768 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:49,768 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:49,769 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:49,770 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:49,770 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:49,770 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:49,771 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:50,120 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:51,067 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:51,068 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:51,068 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:51,068 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:51,069 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:51,069 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:51,069 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:51,070 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:51,120 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:51,121 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:52,191 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:52,192 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:52,192 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:52,192 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:52,193 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:52,194 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:52,194 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:52,195 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:53,125 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:53,125 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:53,198 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:54,088 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:54,089 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:54,090 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:54,090 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:54,091 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:54,091 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:54,091 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:54,092 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:54,128 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:55,128 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:55,686 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:55,688 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:55,688 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:55,688 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:55,689 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:55,689 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:55,690 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:55,690 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:56,135 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:56,705 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:56,706 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:56,706 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:56,707 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:56,707 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:56,707 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:56,708 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:56,708 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:57,139 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:57,139 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:28:58,710 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:28:59,157 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:28:59,505 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:28:59,505 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 08:28:59,506 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 08:28:59,874 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:59,875 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:28:59,876 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:59,876 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:59,876 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:28:59,877 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:28:59,877 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:28:59,879 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:00,158 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:01,162 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:01,921 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:01,922 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:01,922 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:01,922 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:01,923 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:01,923 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:01,924 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:01,924 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:02,166 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:03,176 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:03,931 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:04,093 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:04,094 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:04,094 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:04,094 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:04,095 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:04,095 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:04,095 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:04,096 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:04,243 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:05,246 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:06,793 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:06,794 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:06,795 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:06,796 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:06,812 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:06,812 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:06,813 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:06,813 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:06,814 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:06,815 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:06,815 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:06,815 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:07,247 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:07,427 DEBUG   SenderThread:19921 [sender.py:send():378] send: stats
+2024-04-18 08:29:08,120 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:08,121 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:08,121 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:08,121 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:08,122 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:08,128 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:08,128 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:08,129 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:08,248 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:09,130 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:09,364 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:09,780 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:09,781 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:09,781 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:09,782 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:09,782 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:09,782 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:09,782 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:09,783 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:10,366 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:10,929 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:10,929 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:10,930 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:10,930 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:10,931 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:10,931 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:10,932 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:10,932 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:11,368 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:11,368 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:11,937 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:11,938 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:11,938 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:11,938 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:11,939 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:11,939 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:11,940 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:11,941 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:12,373 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:13,188 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:13,188 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:13,189 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:13,189 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:13,190 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:13,190 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:13,190 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:13,191 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:13,376 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:13,376 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:14,192 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:14,510 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 08:29:14,511 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 08:29:14,513 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:29:14,829 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:14,830 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:14,830 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:14,831 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:14,831 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:14,832 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:14,832 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:14,832 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:15,379 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:15,379 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:15,774 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:15,774 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:15,775 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:15,775 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:15,776 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:15,776 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:15,776 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:15,777 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:16,382 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:17,101 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:17,101 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:17,102 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:17,102 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:17,103 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:17,104 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:17,104 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:17,105 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:17,384 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:17,384 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:18,430 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:18,431 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:18,431 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:18,431 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:18,442 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:18,443 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:18,444 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:18,444 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:18,444 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:18,445 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:18,445 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:18,446 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:19,388 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:19,388 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:19,449 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:19,821 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:19,821 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:19,821 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:19,822 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:19,822 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:19,823 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:19,823 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:19,825 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:20,392 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:20,862 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:20,863 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:20,863 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:20,864 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:20,864 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:20,865 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:20,865 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:20,865 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:21,394 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:21,394 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:22,127 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:22,128 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:22,129 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:22,129 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:22,130 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:22,130 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:22,130 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:22,130 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:22,397 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:23,314 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:23,316 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:23,319 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:23,319 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:23,320 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:23,320 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:23,320 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:23,321 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:23,397 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:23,398 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:24,636 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:24,637 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:24,638 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:24,638 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:24,638 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:24,639 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:24,639 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:24,639 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:24,640 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:25,403 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:25,404 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:25,705 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:25,706 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:25,706 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:25,707 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:25,707 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:25,707 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:25,707 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:25,709 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:26,404 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:26,777 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:26,778 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:26,779 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:26,779 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:26,780 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:26,780 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:26,780 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:26,781 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:27,410 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:27,411 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:28,024 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:28,024 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:28,025 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:28,025 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:28,027 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:28,029 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:28,030 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:28,033 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:28,414 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:29,415 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:29,415 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:29,416 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:29,416 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:29,417 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:29,424 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:29,425 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:29,425 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:29,425 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:29,426 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:29,426 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:29,426 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:29,427 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:29,510 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 08:29:29,510 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:29:29,510 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 08:29:29,676 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:30,418 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:30,612 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:30,613 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:30,613 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:30,613 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:30,614 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:30,614 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:30,614 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:30,615 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:31,423 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:31,424 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:31,487 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:31,488 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:31,488 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:31,489 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:31,489 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:31,489 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:31,489 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:31,491 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:32,393 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:32,394 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:32,394 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:32,394 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:32,395 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:32,395 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:32,395 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:32,397 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:32,424 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:33,426 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:33,670 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:33,671 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:33,672 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:33,672 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:33,673 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:33,674 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:33,674 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:33,675 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:34,430 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:34,680 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:34,935 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:34,935 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:34,936 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:34,936 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:34,937 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:34,937 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:34,937 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:34,938 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:35,433 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:35,433 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:36,073 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:36,073 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:36,074 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:36,074 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:36,074 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:36,075 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:36,075 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:36,075 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:36,433 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:37,161 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:37,162 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:37,162 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:37,163 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:37,163 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:37,163 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:37,164 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:37,165 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:37,431 DEBUG   SenderThread:19921 [sender.py:send():378] send: stats
+2024-04-18 08:29:37,434 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:37,435 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:38,240 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:38,241 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:38,241 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:38,241 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:38,242 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:38,243 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:38,243 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:38,244 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:38,436 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:39,258 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:39,260 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:39,260 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:39,261 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:39,271 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:39,271 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:39,272 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:39,272 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:39,273 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:39,273 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:39,273 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:39,274 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:39,438 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:39,438 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:40,276 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:40,988 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:40,989 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:40,989 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:40,990 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:40,991 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:40,991 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:40,991 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:40,991 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:41,534 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:41,535 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:43,419 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:43,419 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:43,420 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:43,420 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:43,422 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:43,422 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:43,422 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:43,423 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:43,536 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:43,536 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:44,512 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 08:29:44,512 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 08:29:44,514 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:29:45,543 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:45,646 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:46,238 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:46,239 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:46,240 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:46,240 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:46,241 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:46,242 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:46,242 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:46,242 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:46,546 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:47,551 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:49,122 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:49,123 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:49,123 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:49,124 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:49,126 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:49,127 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:49,127 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:49,128 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:49,554 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:50,681 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:50,682 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:50,682 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:50,685 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:50,685 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:50,686 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:50,686 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:50,686 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:50,687 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:51,560 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:51,560 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:51,666 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:51,666 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:51,667 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:51,667 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:51,668 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:51,668 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:51,668 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:51,669 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:52,562 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:52,888 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:52,888 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:52,889 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:52,889 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:52,889 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:52,890 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:52,890 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:52,891 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:53,568 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:53,568 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:53,926 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:53,927 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:53,927 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:53,927 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:53,928 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:53,928 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:53,928 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:53,929 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:54,570 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:55,087 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:55,087 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:55,088 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:55,088 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:55,097 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:55,098 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:55,098 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:55,099 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:55,099 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:55,100 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:55,100 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:55,101 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:55,575 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:55,575 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:56,102 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:29:56,130 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:56,130 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:56,131 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:56,131 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:56,132 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:56,132 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:56,132 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:56,134 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:56,576 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:57,345 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:57,347 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:57,348 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:57,348 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:57,349 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:57,349 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:57,349 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:57,350 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:57,581 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:57,581 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:58,474 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:58,474 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:58,475 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:58,475 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:58,476 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:58,476 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:58,476 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:58,477 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:58,586 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:29:59,514 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 08:29:59,515 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 08:29:59,518 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:29:59,590 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:29:59,616 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:59,616 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:29:59,786 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:59,786 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:59,788 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:29:59,788 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:29:59,789 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:29:59,790 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:00,590 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:30:00,830 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:30:00,831 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:30:00,831 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:30:00,831 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:30:00,832 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:00,832 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:30:00,832 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:30:00,834 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:01,592 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:30:01,592 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:30:01,793 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:30:01,793 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:30:01,794 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:30:01,794 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:30:01,794 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:30:01,796 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:01,797 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:30:01,797 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:30:01,797 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:02,593 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:30:02,840 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:30:02,841 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:30:02,841 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:30:02,842 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:30:02,842 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:02,843 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:30:02,843 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:30:02,964 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:03,593 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:30:03,594 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:30:04,282 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:30:04,283 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:30:04,285 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:30:04,285 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:30:04,286 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:04,286 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:30:04,286 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:30:04,287 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:04,597 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:30:05,586 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:30:05,587 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:30:05,587 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:30:05,588 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:05,598 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:30:05,598 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:30:07,434 DEBUG   SenderThread:19921 [sender.py:send():378] send: stats
+2024-04-18 08:30:07,434 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:30:07,606 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:30:08,632 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 08:30:08,632 DEBUG   SenderThread:19921 [sender.py:send():378] send: history
+2024-04-18 08:30:08,633 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: summary_record
+2024-04-18 08:30:08,634 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:08,634 DEBUG   SenderThread:19921 [sender.py:send():378] send: telemetry
+2024-04-18 08:30:08,637 DEBUG   SenderThread:19921 [sender.py:send():378] send: exit
+2024-04-18 08:30:08,637 INFO    SenderThread:19921 [sender.py:send_exit():585] handling exit code: 0
+2024-04-18 08:30:08,637 INFO    SenderThread:19921 [sender.py:send_exit():587] handling runtime: 151
+2024-04-18 08:30:08,637 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:08,637 INFO    SenderThread:19921 [sender.py:send_exit():593] send defer
+2024-04-18 08:30:08,638 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:08,638 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-18 08:30:08,638 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:08,638 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-04-18 08:30:08,639 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 1
+2024-04-18 08:30:08,639 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:08,639 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-18 08:30:08,639 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:08,639 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-04-18 08:30:08,639 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 2
+2024-04-18 08:30:08,639 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:08,639 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-18 08:30:08,639 INFO    HandlerThread:19921 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-18 08:30:08,639 DEBUG   SystemMonitor:19921 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-18 08:30:08,639 DEBUG   SystemMonitor:19921 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-18 08:30:08,640 INFO    HandlerThread:19921 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-18 08:30:08,640 INFO    HandlerThread:19921 [interfaces.py:finish():202] Joined disk monitor
+2024-04-18 08:30:08,640 INFO    HandlerThread:19921 [interfaces.py:finish():202] Joined memory monitor
+2024-04-18 08:30:08,640 INFO    HandlerThread:19921 [interfaces.py:finish():202] Joined network monitor
+2024-04-18 08:30:08,641 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:08,641 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-04-18 08:30:08,641 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 3
+2024-04-18 08:30:08,641 DEBUG   SenderThread:19921 [sender.py:send():378] send: stats
+2024-04-18 08:30:08,641 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:08,641 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-18 08:30:08,641 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:08,641 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-04-18 08:30:08,641 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 4
+2024-04-18 08:30:08,641 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:08,642 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-18 08:30:08,642 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:08,642 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-04-18 08:30:08,642 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 5
+2024-04-18 08:30:08,642 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:08,642 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-18 08:30:08,642 DEBUG   SenderThread:19921 [sender.py:send():378] send: summary
+2024-04-18 08:30:08,642 INFO    SenderThread:19921 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-18 08:30:08,643 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:08,643 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-04-18 08:30:08,643 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 6
+2024-04-18 08:30:08,643 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:08,643 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-18 08:30:08,643 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:08,643 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-04-18 08:30:08,646 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 08:30:08,711 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 7
+2024-04-18 08:30:08,711 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:08,711 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-18 08:30:08,711 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:08,712 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-04-18 08:30:08,840 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 8
+2024-04-18 08:30:08,840 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:08,840 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-18 08:30:08,840 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:08,841 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-04-18 08:30:08,841 INFO    SenderThread:19921 [job_builder.py:build():298] Attempting to build job artifact
+2024-04-18 08:30:08,846 INFO    SenderThread:19921 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-04-18 08:30:08,846 INFO    SenderThread:19921 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2024-04-18 08:30:08,901 INFO    SenderThread:19921 [job_builder.py:build():404] adding wandb-job metadata file
+2024-04-18 08:30:08,911 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 9
+2024-04-18 08:30:08,912 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:08,912 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-18 08:30:08,912 DEBUG   SenderThread:19921 [sender.py:send():378] send: artifact
+2024-04-18 08:30:09,615 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:30:09,616 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:30:09,616 INFO    Thread-12 :19921 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/config.yaml
+2024-04-18 08:30:09,637 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-18 08:30:09,853 INFO    wandb-upload_0:19921 [upload_job.py:push():86] Skipped uploading /Users/samharshe/Library/Application Support/wandb/artifacts/staging/tmpbexzvpq1
+2024-04-18 08:30:10,379 INFO    wandb-upload_1:19921 [upload_job.py:push():89] Uploaded file /Users/samharshe/Library/Application Support/wandb/artifacts/staging/tmp5t2i7so_
+2024-04-18 08:30:11,393 INFO    SenderThread:19921 [sender.py:send_artifact():1443] sent artifact job-git_github.com_samharshe_QM9-Pro.git_main.ipynb - {'id': 'QXJ0aWZhY3Q6ODAxMjc4MTUy', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2Mzc3MjEzMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODAwODIyOTM0', 'versionIndex': 6}}}
+2024-04-18 08:30:11,394 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:11,394 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-04-18 08:30:11,394 INFO    SenderThread:19921 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-18 08:30:11,623 INFO    SenderThread:19921 [dir_watcher.py:finish():388] scan: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files
+2024-04-18 08:30:11,624 INFO    SenderThread:19921 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/requirements.txt requirements.txt
+2024-04-18 08:30:11,624 INFO    SenderThread:19921 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log output.log
+2024-04-18 08:30:11,626 INFO    SenderThread:19921 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/config.yaml config.yaml
+2024-04-18 08:30:11,626 INFO    SenderThread:19921 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json wandb-summary.json
+2024-04-18 08:30:11,627 INFO    SenderThread:19921 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/conda-environment.yaml conda-environment.yaml
+2024-04-18 08:30:11,630 INFO    SenderThread:19921 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-metadata.json wandb-metadata.json
+2024-04-18 08:30:11,632 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 10
+2024-04-18 08:30:11,633 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: poll_exit
+2024-04-18 08:30:11,635 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:11,637 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-18 08:30:11,638 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:11,638 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-04-18 08:30:11,639 INFO    SenderThread:19921 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-18 08:30:11,642 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-18 08:30:11,643 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: poll_exit
+2024-04-18 08:30:11,949 INFO    wandb-upload_1:19921 [upload_job.py:push():131] Uploaded file /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/output.log
+2024-04-18 08:30:12,278 INFO    wandb-upload_4:19921 [upload_job.py:push():131] Uploaded file /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/conda-environment.yaml
+2024-04-18 08:30:12,480 INFO    wandb-upload_0:19921 [upload_job.py:push():131] Uploaded file /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/requirements.txt
+2024-04-18 08:30:12,580 INFO    wandb-upload_3:19921 [upload_job.py:push():131] Uploaded file /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/wandb-summary.json
+2024-04-18 08:30:12,581 INFO    wandb-upload_2:19921 [upload_job.py:push():131] Uploaded file /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/files/config.yaml
+2024-04-18 08:30:12,649 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-18 08:30:12,653 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: poll_exit
+2024-04-18 08:30:12,785 INFO    Thread-11 (_thread_body):19921 [sender.py:transition_state():613] send defer: 11
+2024-04-18 08:30:12,787 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:12,787 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-18 08:30:12,787 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:12,788 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-04-18 08:30:12,788 INFO    SenderThread:19921 [file_pusher.py:join():178] waiting for file pusher
+2024-04-18 08:30:12,788 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 12
+2024-04-18 08:30:12,788 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:12,788 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-18 08:30:12,788 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:12,789 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-04-18 08:30:12,789 INFO    SenderThread:19921 [file_stream.py:finish():595] file stream finish called
+2024-04-18 08:30:12,858 INFO    SenderThread:19921 [file_stream.py:finish():599] file stream finish is done
+2024-04-18 08:30:12,858 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 13
+2024-04-18 08:30:12,858 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:12,863 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-18 08:30:12,865 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:12,865 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-04-18 08:30:12,866 INFO    SenderThread:19921 [sender.py:transition_state():613] send defer: 14
+2024-04-18 08:30:12,867 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 08:30:12,868 INFO    HandlerThread:19921 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-18 08:30:12,868 DEBUG   SenderThread:19921 [sender.py:send():378] send: final
+2024-04-18 08:30:12,869 DEBUG   SenderThread:19921 [sender.py:send():378] send: footer
+2024-04-18 08:30:12,869 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: defer
+2024-04-18 08:30:12,869 INFO    SenderThread:19921 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-04-18 08:30:12,869 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-18 08:30:12,869 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: poll_exit
+2024-04-18 08:30:12,872 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 08:30:12,873 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: server_info
+2024-04-18 08:30:12,873 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-18 08:30:12,873 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-18 08:30:12,873 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: server_info
+2024-04-18 08:30:12,874 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: job_info
+2024-04-18 08:30:12,925 DEBUG   SenderThread:19921 [sender.py:send_request():405] send_request: job_info
+2024-04-18 08:30:12,926 DEBUG   HandlerThread:19921 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-18 08:30:12,926 INFO    HandlerThread:19921 [handler.py:finish():869] shutting down handler
+2024-04-18 08:30:13,881 INFO    WriterThread:19921 [datastore.py:close():296] close: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_082736-3ad23i77/run-3ad23i77.wandb
+2024-04-18 08:30:13,929 INFO    SenderThread:19921 [sender.py:finish():1521] shutting down sender
+2024-04-18 08:30:13,929 INFO    SenderThread:19921 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-18 08:30:13,929 INFO    SenderThread:19921 [file_pusher.py:join():178] waiting for file pusher

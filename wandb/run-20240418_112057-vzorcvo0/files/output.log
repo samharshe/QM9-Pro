@@ -1,0 +1,18 @@
+
+EPOCH 1 OF 50 | VAL MEAN LOSS: 0.006441839504987001
+EPOCH 2 OF 50 | VAL MEAN LOSS: 0.006441826466470957
+EPOCH 3 OF 50 | VAL MEAN LOSS: 0.006441825069487095
+EPOCH 4 OF 50 | VAL MEAN LOSS: 0.006441824603825808
+EPOCH 5 OF 50 | VAL MEAN LOSS: 0.00644182413816452
+EPOCH 6 OF 50 | VAL MEAN LOSS: 0.00644182413816452
+EPOCH 7 OF 50 | VAL MEAN LOSS: 0.00644182413816452
+EPOCH 8 OF 50 | VAL MEAN LOSS: 0.00643862783908844
+EPOCH 9 OF 50 | VAL MEAN LOSS: 0.006438631098717451
+EPOCH 10 OF 50 | VAL MEAN LOSS: 0.006438631564378738
+Exception ignored in: <bound method IPythonKernel._clean_thread_parent_frames of <ipykernel.ipkernel.IPythonKernel object at 0x105f19150>>
+Traceback (most recent call last):
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 789, in _clean_thread_parent_frames
+    for identity in list(thread_to_parent_header.keys()):
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
+EPOCH 11 OF 50 | VAL MEAN LOSS: 0.006438670679926872

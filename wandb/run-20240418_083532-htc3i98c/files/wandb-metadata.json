@@ -1,0 +1,44 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.11.8",
+    "heartbeatAt": "2024-04-18T12:35:39.559253",
+    "startedAt": "2024-04-18T12:35:32.426349",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.ipynb",
+    "codePathLocal": "main.ipynb",
+    "git": {
+        "remote": "git@github.com:samharshe/QM9-Pro.git",
+        "commit": "52b259d08b5afad4d383eb62b07bd9866135a8e6"
+    },
+    "email": "samharshe29@gmail.com",
+    "root": "/Users/samharshe/Documents/Gerstein Lab/QM9 Pro",
+    "host": "Sams-MBP-2.wireless.yale.internal",
+    "username": "samharshe",
+    "executable": "/usr/local/Caskroom/miniconda/base/envs/GDL/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3100,
+        "min": 3100,
+        "max": 3100
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3100,
+            "min": 3100,
+            "max": 3100
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 233.46913528442383,
+            "used": 213.84204483032227
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

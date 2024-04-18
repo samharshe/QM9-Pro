@@ -27392,3 +27392,39 @@
 2024-04-18 00:17:40,144 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
 2024-04-18 00:17:43,289 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
 2024-04-18 00:17:48,304 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 00:17:53,313 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 00:17:55,134 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 00:17:55,146 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 00:17:55,146 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 00:17:59,309 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 00:18:04,318 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 00:18:09,328 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 00:18:10,138 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 00:18:10,146 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 00:18:10,147 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-18 00:18:14,440 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 00:18:19,452 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 00:18:24,475 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 00:18:28,534 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,534 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,534 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,534 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,534 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,534 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,534 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,534 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,535 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,536 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited
+2024-04-18 00:18:28,536 INFO    MainThread:16005 [internal.py:handle_exit():76] Internal process exited

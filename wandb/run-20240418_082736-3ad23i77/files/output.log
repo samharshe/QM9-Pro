@@ -1,0 +1,90 @@
+
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(epoch_mean_loss): <class 'float'>
+EPOCH 1 OF 8 | VAL MEAN LOSS: 0.0038793005514889956
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(epoch_mean_loss): <class 'float'>
+EPOCH 2 OF 8 | VAL MEAN LOSS: 0.002692284295335412
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(epoch_mean_loss): <class 'float'>
+EPOCH 3 OF 8 | VAL MEAN LOSS: 0.0026554858777672052
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(epoch_mean_loss): <class 'float'>
+EPOCH 4 OF 8 | VAL MEAN LOSS: 0.0026560297701507807
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(epoch_mean_loss): <class 'float'>
+EPOCH 5 OF 8 | VAL MEAN LOSS: 0.0026562868151813745
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(epoch_mean_loss): <class 'float'>
+EPOCH 6 OF 8 | VAL MEAN LOSS: 0.0026581238489598036
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(epoch_mean_loss): <class 'float'>
+EPOCH 7 OF 8 | VAL MEAN LOSS: 0.002656670520082116
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(train_loss_item): <class 'float'>
+type(epoch_mean_loss): <class 'float'>
+EPOCH 8 OF 8 | VAL MEAN LOSS: 0.002660564612597227
+TEST MEAN LOSS: 0.002635211916640401

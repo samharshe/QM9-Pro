@@ -1,0 +1,166 @@
+2024-04-18 08:37:15,355 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-04-18 08:37:15,356 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Configure stats pid to 19654
+2024-04-18 08:37:15,356 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Loading settings from /Users/samharshe/.config/wandb/settings
+2024-04-18 08:37:15,356 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Loading settings from /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/settings
+2024-04-18 08:37:15,356 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'notebook_name': 'main.ipynb'}
+2024-04-18 08:37:15,356 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-18 08:37:15,356 INFO    MainThread:19654 [wandb_init.py:_log_setup():526] Logging user logs to /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_083715-hktyu6x9/logs/debug.log
+2024-04-18 08:37:15,356 INFO    MainThread:19654 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_083715-hktyu6x9/logs/debug-internal.log
+2024-04-18 08:37:15,357 INFO    MainThread:19654 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x148917fd0>
+2024-04-18 08:37:15,357 INFO    MainThread:19654 [wandb_init.py:init():566] calling init triggers
+2024-04-18 08:37:15,357 INFO    MainThread:19654 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'base_learning_rate': 0.001, 'architecture': 'Sparse 2-layer MPNN', 'optimizer': 'Adam', 'scheduler': 'ReduceLROnPlateau', 'dataset': 'QM9', 'epochs': 50, 'batch_size': 128, 'name': '2LP'}
+2024-04-18 08:37:15,361 INFO    MainThread:19654 [wandb_init.py:init():591] re-initializing run, found existing run on stack: htc3i98c
+2024-04-18 08:37:15,364 INFO    MainThread:19654 [wandb_run.py:_finish():1970] finishing run sharshe/QM9-Pro-II/htc3i98c
+2024-04-18 08:37:15,364 INFO    MainThread:19654 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-04-18 08:37:15,364 INFO    MainThread:19654 [wandb_run.py:_restore():2193] restore
+2024-04-18 08:37:15,365 INFO    MainThread:19654 [wandb_run.py:_restore():2199] restore done
+2024-04-18 08:39:43,937 WARNING MsgRouterThr:19654 [router.py:message_loop():77] message_loop has been closed
+2024-04-18 08:39:51,765 INFO    MainThread:19654 [wandb_run.py:_restore():2193] restore
+2024-04-18 08:39:51,766 INFO    MainThread:19654 [wandb_run.py:_restore():2199] restore done
+2024-04-18 08:39:51,871 ERROR   MainThread:19654 [wandb_init.py:init():1204] error
+Traceback (most recent call last):
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2219, in _atexit_cleanup
+    self._on_finish()
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2466, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 298, in wait
+    on_probe(probe_handle)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2430, in _on_probe_exit
+    result = handle.wait(timeout=0, release=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 281, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 601, in init
+    latest_run.finish()
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 420, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 1961, in finish
+    return self._finish(exit_code, quiet)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 1976, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2230, in _atexit_cleanup
+    self._backend.cleanup()
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/backend/backend.py", line 232, in cleanup
+    self.interface.join()
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 547, in join
+    super().join()
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 713, in join
+    _ = self._communicate_shutdown()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 440, in _communicate_shutdown
+    _ = self._communicate(record)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/interface/interface_shared.py", line 300, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/interface/interface_sock.py", line 60, in _communicate_async
+    future = self._router.send_and_receive(rec, local=local)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/interface/router.py", line 94, in send_and_receive
+    self._send_message(rec)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/interface/router_sock.py", line 36, in _send_message
+    self._sock_client.send_record_communicate(record)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 216, in send_record_communicate
+    self.send_server_request(server_req)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2024-04-18 08:40:39,836 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-04-18 08:40:39,836 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Configure stats pid to 19654
+2024-04-18 08:40:39,836 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Loading settings from /Users/samharshe/.config/wandb/settings
+2024-04-18 08:40:39,836 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Loading settings from /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/settings
+2024-04-18 08:40:39,836 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'notebook_name': 'main.ipynb'}
+2024-04-18 08:40:39,836 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-18 08:40:39,836 INFO    MainThread:19654 [wandb_init.py:_log_setup():526] Logging user logs to /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_084039-1k805d3a/logs/debug.log
+2024-04-18 08:40:39,836 INFO    MainThread:19654 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_084039-1k805d3a/logs/debug-internal.log
+2024-04-18 08:40:39,837 INFO    MainThread:19654 [wandb_init.py:init():566] calling init triggers
+2024-04-18 08:40:39,837 INFO    MainThread:19654 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'base_learning_rate': 0.001, 'architecture': 'Sparse 2-layer MPNN', 'optimizer': 'Adam', 'scheduler': 'ReduceLROnPlateau', 'dataset': 'QM9', 'epochs': 50, 'batch_size': 128, 'name': '2LP'}
+2024-04-18 08:40:39,837 INFO    MainThread:19654 [wandb_init.py:init():591] re-initializing run, found existing run on stack: htc3i98c
+2024-04-18 08:40:39,858 INFO    MainThread:19654 [wandb_run.py:_finish():1970] finishing run sharshe/QM9-Pro-II/htc3i98c
+2024-04-18 08:40:39,942 ERROR   MainThread:19654 [wandb_init.py:init():1204] error
+Traceback (most recent call last):
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 601, in init
+    latest_run.finish()
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 420, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 1961, in finish
+    return self._finish(exit_code, quiet)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 1989, in _finish
+    manager._inform_finish(run_id=self._run_id)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_manager.py", line 218, in _inform_finish
+    svc_iface._svc_inform_finish(run_id=run_id)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/service/service_sock.py", line 56, in _svc_inform_finish
+    self._sock_client.send(inform_finish=inform_finish)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2024-04-18 08:40:55,168 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-04-18 08:40:55,168 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Configure stats pid to 19654
+2024-04-18 08:40:55,168 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Loading settings from /Users/samharshe/.config/wandb/settings
+2024-04-18 08:40:55,168 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Loading settings from /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/settings
+2024-04-18 08:40:55,168 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'notebook_name': 'main.ipynb'}
+2024-04-18 08:40:55,168 INFO    MainThread:19654 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-18 08:40:55,169 INFO    MainThread:19654 [wandb_init.py:_log_setup():526] Logging user logs to /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_084055-htdf0ass/logs/debug.log
+2024-04-18 08:40:55,169 INFO    MainThread:19654 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240418_084055-htdf0ass/logs/debug-internal.log
+2024-04-18 08:40:55,169 INFO    MainThread:19654 [wandb_init.py:init():566] calling init triggers
+2024-04-18 08:40:55,170 INFO    MainThread:19654 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'base_learning_rate': 0.001, 'architecture': 'Sparse 2-layer MPNN', 'optimizer': 'Adam', 'scheduler': 'ReduceLROnPlateau', 'dataset': 'QM9', 'epochs': 50, 'batch_size': 128, 'name': '2LP'}
+2024-04-18 08:40:55,170 INFO    MainThread:19654 [wandb_init.py:init():616] starting backend
+2024-04-18 08:40:55,170 INFO    MainThread:19654 [wandb_init.py:init():620] setting up manager
+2024-04-18 08:40:55,259 ERROR   MainThread:19654 [wandb_init.py:init():1204] error
+Traceback (most recent call last):
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 621, in init
+    manager._inform_init(
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/wandb_manager.py", line 200, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/service/service_sock.py", line 39, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/usr/local/Caskroom/miniconda/base/envs/GDL/lib/python3.11/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe

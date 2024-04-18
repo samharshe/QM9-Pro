@@ -1,0 +1,1 @@
+{"train_losses": 0.003782617626711726, "_timestamp": 1713452869.5666199, "_runtime": 5722.4494569301605, "_step": 950, "training_rates": 1.0000000000000004e-08, "epoch_mean_loss": 0.0026541328988969326, "test_mean_loss": 0.0026239731814712286, "_wandb": {"runtime": 5721}}
