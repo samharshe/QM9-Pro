@@ -46,3 +46,41 @@ config: {'base_learning_rate': 0.001, 'architecture': 'Sparse 2-layer MPNN', 'op
 2024-04-18 13:05:14,689 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
 2024-04-18 13:05:14,691 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
 2024-04-18 13:05:14,691 INFO    MainThread:20257 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-18 13:08:48,943 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-18 13:08:48,950 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 13:08:48,953 INFO    MainThread:20257 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-18 13:10:09,507 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-18 13:10:09,546 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 13:10:09,546 INFO    MainThread:20257 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-18 14:35:42,383 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-18 14:35:42,414 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 14:35:42,418 INFO    MainThread:20257 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-18 14:35:42,450 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-18 14:35:42,473 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 14:35:42,473 INFO    MainThread:20257 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-18 14:35:42,533 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-18 14:35:42,547 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 14:35:42,547 INFO    MainThread:20257 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-18 14:35:43,131 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-18 14:35:43,143 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 14:35:43,152 INFO    MainThread:20257 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-18 14:35:43,200 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-18 14:35:43,210 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 14:35:43,218 INFO    MainThread:20257 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-18 14:35:43,312 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-18 14:35:43,321 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 14:35:43,321 INFO    MainThread:20257 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-18 14:35:43,535 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-18 14:35:43,540 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 14:35:43,547 INFO    MainThread:20257 [wandb_init.py:_pause_backend():437] pausing backend
+2024-04-18 14:35:45,003 INFO    MainThread:20257 [wandb_init.py:_resume_backend():442] resuming backend
+2024-04-18 14:35:45,012 INFO    MainThread:20257 [wandb_run.py:_finish():1970] finishing run sharshe/QM9-Pro-2/vzorcvo0
+2024-04-18 14:35:45,054 ERROR   MainThread:20257 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-04-18 14:35:45,054 INFO    MainThread:20257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 14:35:45,054 INFO    MainThread:20257 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-04-18 14:35:45,057 INFO    MainThread:20257 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-04-18 14:35:45,063 INFO    MainThread:20257 [wandb_run.py:_restore():2193] restore
+2024-04-18 14:35:45,070 INFO    MainThread:20257 [wandb_run.py:_restore():2199] restore done
+2024-04-18 14:36:14,650 INFO    MainThread:20257 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-04-18 14:36:14,665 INFO    MainThread:20257 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-04-18 14:36:14,689 INFO    MainThread:20257 [wandb_run.py:_footer_sync_info():3810] logging synced files

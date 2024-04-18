@@ -17,3 +17,5 @@ Traceback (most recent call last):
 KeyboardInterrupt:
 EPOCH 11 OF 50 | VAL MEAN LOSS: 0.006438670679926872
 EPOCH 12 OF 50 | VAL MEAN LOSS: 0.006438683718442917
+wandb: Network error (ConnectionError), entering retry loop.
+env: WANDB_SILENT=true
