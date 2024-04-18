@@ -1,0 +1,38 @@
+2024-04-17 23:59:01,542 INFO    MainThread:15987 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-04-17 23:59:01,542 INFO    MainThread:15987 [wandb_setup.py:_flush():76] Configure stats pid to 15987
+2024-04-17 23:59:01,542 INFO    MainThread:15987 [wandb_setup.py:_flush():76] Loading settings from /Users/samharshe/.config/wandb/settings
+2024-04-17 23:59:01,542 INFO    MainThread:15987 [wandb_setup.py:_flush():76] Loading settings from /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/settings
+2024-04-17 23:59:01,542 INFO    MainThread:15987 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'notebook_name': 'main.ipynb'}
+2024-04-17 23:59:01,542 INFO    MainThread:15987 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-17 23:59:01,542 INFO    MainThread:15987 [wandb_init.py:_log_setup():526] Logging user logs to /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_235901-a1oaajge/logs/debug.log
+2024-04-17 23:59:01,542 INFO    MainThread:15987 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_235901-a1oaajge/logs/debug-internal.log
+2024-04-17 23:59:01,542 INFO    MainThread:15987 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x14a147690>
+2024-04-17 23:59:01,543 INFO    MainThread:15987 [wandb_init.py:init():566] calling init triggers
+2024-04-17 23:59:01,543 INFO    MainThread:15987 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'base_learning_rate': 0.001, 'architecture': 'Sparse 1-layer MPNN', 'optimizer': 'Adam', 'scheduler': 'CosineAnnealingWarmRestarts', 'dataset': 'QM9', 'epochs': 10, 'batch_size': 128, 'name': '1LC'}
+2024-04-17 23:59:01,543 INFO    MainThread:15987 [wandb_init.py:init():616] starting backend
+2024-04-17 23:59:01,543 INFO    MainThread:15987 [wandb_init.py:init():620] setting up manager
+2024-04-17 23:59:01,544 INFO    MainThread:15987 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-17 23:59:01,544 INFO    MainThread:15987 [wandb_init.py:init():628] backend started and connected
+2024-04-17 23:59:01,547 INFO    MainThread:15987 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-04-17 23:59:01,548 INFO    MainThread:15987 [wandb_init.py:init():720] updated telemetry
+2024-04-17 23:59:01,575 INFO    MainThread:15987 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-04-17 23:59:02,941 INFO    MainThread:15987 [wandb_run.py:_on_init():2262] communicating current version
+2024-04-17 23:59:03,111 INFO    MainThread:15987 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-17 23:59:03,112 INFO    MainThread:15987 [wandb_init.py:init():804] starting run threads in backend
+2024-04-17 23:59:09,849 INFO    MainThread:15987 [wandb_run.py:_console_start():2241] atexit reg
+2024-04-17 23:59:09,849 INFO    MainThread:15987 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-04-17 23:59:09,850 INFO    MainThread:15987 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-04-17 23:59:09,850 INFO    MainThread:15987 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-04-17 23:59:09,851 INFO    MainThread:15987 [wandb_init.py:init():847] run started, returning control to user process
+2024-04-18 00:05:21,097 INFO    MainThread:15987 [wandb_run.py:_finish():1970] finishing run sharshe/QM9-Pro/a1oaajge
+2024-04-18 00:05:21,099 ERROR   MainThread:15987 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-04-18 00:05:21,099 INFO    MainThread:15987 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-18 00:05:21,100 INFO    MainThread:15987 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-04-18 00:05:21,100 INFO    MainThread:15987 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-04-18 00:05:21,101 INFO    MainThread:15987 [wandb_run.py:_restore():2193] restore
+2024-04-18 00:05:21,101 INFO    MainThread:15987 [wandb_run.py:_restore():2199] restore done
+2024-04-18 00:05:25,745 INFO    MainThread:15987 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-04-18 00:05:25,746 INFO    MainThread:15987 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-04-18 00:05:25,768 INFO    MainThread:15987 [wandb_run.py:_footer_sync_info():3810] logging synced files

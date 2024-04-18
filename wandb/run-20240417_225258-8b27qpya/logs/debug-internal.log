@@ -1,0 +1,1013 @@
+2024-04-17 22:52:58,732 INFO    StreamThr :16005 [internal.py:wandb_internal():86] W&B internal server running at pid: 16005, started at: 2024-04-17 22:52:58.724927
+2024-04-17 22:52:58,736 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status
+2024-04-17 22:52:58,739 INFO    WriterThread:16005 [datastore.py:open_for_write():87] open: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/run-8b27qpya.wandb
+2024-04-17 22:52:58,746 DEBUG   SenderThread:16005 [sender.py:send():378] send: header
+2024-04-17 22:52:58,746 DEBUG   SenderThread:16005 [sender.py:send():378] send: run
+2024-04-17 22:52:59,353 INFO    SenderThread:16005 [dir_watcher.py:__init__():211] watching files in: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files
+2024-04-17 22:52:59,353 INFO    SenderThread:16005 [sender.py:_start_run_threads():1099] run started: 8b27qpya with start time 1713408778.278746
+2024-04-17 22:52:59,400 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: check_version
+2024-04-17 22:52:59,400 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: check_version
+2024-04-17 22:52:59,696 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: run_start
+2024-04-17 22:52:59,701 DEBUG   HandlerThread:16005 [system_info.py:__init__():26] System info init
+2024-04-17 22:52:59,701 DEBUG   HandlerThread:16005 [system_info.py:__init__():41] System info init done
+2024-04-17 22:52:59,701 INFO    HandlerThread:16005 [system_monitor.py:start():194] Starting system monitor
+2024-04-17 22:52:59,702 INFO    SystemMonitor:16005 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-17 22:52:59,702 INFO    HandlerThread:16005 [system_monitor.py:probe():214] Collecting system info
+2024-04-17 22:52:59,704 INFO    SystemMonitor:16005 [interfaces.py:start():190] Started cpu monitoring
+2024-04-17 22:52:59,705 DEBUG   HandlerThread:16005 [system_info.py:probe():150] Probing system
+2024-04-17 22:52:59,707 INFO    SystemMonitor:16005 [interfaces.py:start():190] Started disk monitoring
+2024-04-17 22:52:59,712 INFO    SystemMonitor:16005 [interfaces.py:start():190] Started memory monitoring
+2024-04-17 22:52:59,719 INFO    SystemMonitor:16005 [interfaces.py:start():190] Started network monitoring
+2024-04-17 22:52:59,724 DEBUG   HandlerThread:16005 [system_info.py:_probe_git():135] Probing git
+2024-04-17 22:52:59,824 DEBUG   HandlerThread:16005 [system_info.py:_probe_git():143] Probing git done
+2024-04-17 22:52:59,827 DEBUG   HandlerThread:16005 [system_info.py:probe():198] Probing system done
+2024-04-17 22:52:59,827 DEBUG   HandlerThread:16005 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.11.8', 'heartbeatAt': '2024-04-18T02:52:59.705714', 'startedAt': '2024-04-18T02:52:58.244641', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'main.ipynb', 'codePathLocal': 'main.ipynb', 'git': {'remote': 'git@github.com:samharshe/QM9-Pro.git', 'commit': '66a9f7669f4a9f56e32c35bc8bb35fe7e131dc36'}, 'email': 'samharshe29@gmail.com', 'root': '/Users/samharshe/Documents/Gerstein Lab/QM9 Pro', 'host': 'Sams-MBP-2.wireless.yale.internal', 'username': 'samharshe', 'executable': '/usr/local/Caskroom/miniconda/base/envs/GDL/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 3100, 'min': 3100, 'max': 3100}, 'cpu_freq_per_core': [{'current': 3100, 'min': 3100, 'max': 3100}], 'disk': {'/': {'total': 233.46913528442383, 'used': 214.76460647583008}}, 'memory': {'total': 8.0}}
+2024-04-17 22:52:59,827 INFO    HandlerThread:16005 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-17 22:52:59,828 INFO    HandlerThread:16005 [system_monitor.py:probe():227] Publishing system info
+2024-04-17 22:52:59,828 DEBUG   HandlerThread:16005 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-17 22:53:00,380 INFO    Thread-208:16005 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/conda-environment.yaml
+2024-04-17 22:53:11,427 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/conda-environment.yaml
+2024-04-17 22:53:11,949 DEBUG   HandlerThread:16005 [system_info.py:_save_conda():219] Saving conda packages done
+2024-04-17 22:53:11,951 INFO    HandlerThread:16005 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-17 22:53:11,951 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:11,952 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-17 22:53:11,953 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:11,953 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-17 22:53:11,954 DEBUG   SenderThread:16005 [sender.py:send():378] send: files
+2024-04-17 22:53:11,954 INFO    SenderThread:16005 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-04-17 22:53:12,437 INFO    Thread-208:16005 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/wandb-metadata.json
+2024-04-17 22:53:12,671 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-17 22:53:12,675 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: python_packages
+2024-04-17 22:53:12,675 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:53:12,678 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:53:12,682 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:53:12,710 INFO    wandb-upload_0:16005 [upload_job.py:push():131] Uploaded file /var/folders/1m/gvn54nz553d8jxtvjvrv56kh0000gn/T/tmpxdrrvk2xwandb/fl5q7fxd-wandb-metadata.json
+2024-04-17 22:53:12,915 DEBUG   SenderThread:16005 [sender.py:send():378] send: telemetry
+2024-04-17 22:53:13,439 INFO    Thread-208:16005 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/requirements.txt
+2024-04-17 22:53:14,926 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:19,936 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:24,953 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:27,673 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:53:27,677 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:53:27,678 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:53:29,980 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:30,497 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/config.yaml
+2024-04-17 22:53:35,123 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:40,146 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:42,680 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:53:42,681 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:53:42,682 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:53:45,795 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:50,817 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:51,658 INFO    Thread-208:16005 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:53:53,663 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:53:56,642 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:53:57,682 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:53:57,682 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:53:57,683 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:53:59,722 DEBUG   SystemMonitor:16005 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-17 22:53:59,724 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:54:01,749 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:06,763 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:11,775 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:12,687 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:54:12,687 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:54:12,688 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:54:16,800 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:21,824 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:54:22,672 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:27,689 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:27,691 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:54:27,694 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:54:27,696 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:54:29,727 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:54:32,732 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:37,751 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:41,896 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:54:42,691 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:54:42,692 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:54:42,695 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:54:42,837 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:47,862 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:52,877 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:57,699 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:54:57,699 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:54:57,699 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:54:57,918 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:54:59,733 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:54:59,970 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:55:03,754 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:08,775 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:12,703 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:55:12,703 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:55:12,708 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:55:13,951 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:18,971 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:20,037 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:55:24,288 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:27,704 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:55:27,705 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:55:27,707 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:55:29,736 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:55:29,737 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:34,747 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:39,762 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:42,115 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:55:42,705 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:55:42,709 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:55:42,710 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:55:44,844 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:49,934 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:54,954 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:55:57,710 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:55:57,717 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:55:57,718 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:55:59,742 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:56:00,749 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:06,180 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:56:06,372 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:11,387 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:12,713 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:56:12,720 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:56:12,723 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:56:17,120 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:22,135 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:27,149 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:27,716 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:56:27,723 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:56:27,725 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:56:29,746 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:56:30,248 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:56:32,753 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:37,780 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:42,722 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:56:42,724 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:56:42,725 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:56:42,839 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:47,853 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:52,871 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:56,356 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:56:57,723 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:56:57,730 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:56:57,731 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:56:58,069 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:56:59,770 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:57:03,785 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:08,839 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:12,728 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:57:12,736 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:57:12,737 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:57:13,892 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:18,913 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:23,931 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:27,730 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:57:27,750 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:57:27,751 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:57:29,775 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:57:29,777 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:35,164 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:36,687 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:57:40,212 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:42,782 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:57:42,788 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:57:42,793 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:57:46,203 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:51,214 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:56,239 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:57:57,770 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:57:57,781 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:57:57,782 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:57:59,783 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:58:01,791 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:06,801 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:11,816 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:12,772 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:58:12,782 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:58:12,784 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:58:16,890 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:20,939 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:58:22,660 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:27,692 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:27,804 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:58:27,817 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:58:27,818 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:58:29,787 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:58:32,794 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:37,800 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:42,791 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:58:42,815 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:58:42,815 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:58:42,937 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:47,948 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:52,955 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:57,792 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:58:57,816 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:58:57,817 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:58:58,041 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:58:59,802 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:59:03,902 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:08,954 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:12,792 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:59:12,817 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:59:12,818 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:59:14,292 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:19,303 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:23,202 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:59:25,098 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:27,798 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:59:27,818 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:59:27,819 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:59:29,801 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 22:59:30,804 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:35,817 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:40,834 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:42,808 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:59:42,819 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:59:42,820 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:59:43,267 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 22:59:45,947 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:50,962 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:55,979 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 22:59:57,812 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 22:59:57,822 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 22:59:57,823 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 22:59:59,802 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:00:01,348 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:00:01,391 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:06,401 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:11,417 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:12,820 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:00:12,826 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:00:12,826 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:00:17,034 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:22,344 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:27,351 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:27,823 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:00:27,827 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:00:27,828 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:00:29,807 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:00:32,818 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:38,762 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:39,040 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:00:42,823 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:00:42,832 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:00:42,833 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:00:44,500 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:49,515 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:54,542 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:00:57,826 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:00:57,841 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:00:57,843 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:00:59,811 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:00:59,821 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:04,910 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:09,929 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:12,829 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:01:12,844 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:01:12,844 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:01:14,989 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:20,009 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:25,022 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:27,266 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:01:27,831 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:01:27,845 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:01:27,845 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:01:29,811 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:01:30,819 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:35,827 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:40,843 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:42,831 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:01:42,849 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:01:42,849 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:01:45,971 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:50,993 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:56,009 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:01:57,838 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:01:57,853 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:01:57,855 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:01:59,893 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:02:01,903 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:06,943 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:11,964 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:12,840 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:02:12,860 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:02:12,862 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:02:17,063 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:17,502 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:02:22,071 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:27,098 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:27,841 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:02:27,862 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:02:27,863 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:02:29,890 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:02:32,910 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:37,922 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:42,844 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:02:42,869 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:02:42,870 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:02:43,050 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:48,072 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:53,107 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:57,847 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:02:57,872 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:02:57,873 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:02:58,379 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:02:59,894 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:03:03,905 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:09,053 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:09,802 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:03:12,850 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:03:12,874 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:03:12,874 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:03:14,992 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:20,009 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:25,027 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:27,855 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:03:27,875 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:03:27,875 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:03:29,898 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:03:30,907 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:35,924 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:41,010 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:42,861 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:03:42,875 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:03:42,876 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:03:47,012 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:52,025 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:57,063 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:03:57,909 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:03:57,910 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:03:57,912 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:03:59,900 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:04:02,909 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:07,923 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:12,905 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:04:12,910 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:04:12,910 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:04:13,153 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:13,350 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:04:18,164 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:23,182 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:27,907 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:04:27,911 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:04:27,912 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:04:28,552 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:29,909 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:04:33,983 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:39,020 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:42,909 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:04:42,915 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:04:42,916 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:04:44,043 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:49,235 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:49,646 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:04:54,251 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:04:57,911 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:04:57,923 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:04:57,925 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:04:59,910 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:04:59,911 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:04,925 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:09,946 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:12,918 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:05:12,926 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:05:12,927 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:05:15,137 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:20,154 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:25,161 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:27,918 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:05:27,927 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:05:27,928 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:05:29,916 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:05:30,918 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:35,932 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:39,859 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:05:41,123 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:42,922 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:05:42,931 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:05:42,934 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:05:47,045 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:52,055 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:57,072 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:05:57,924 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:05:57,931 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:05:57,932 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:05:59,920 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:06:02,937 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:07,947 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:12,925 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:06:12,938 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:06:12,939 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:06:13,095 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:18,107 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:23,129 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:27,929 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:06:27,943 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:06:27,944 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:06:29,018 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:29,927 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:06:34,147 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:06:34,299 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:39,330 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:42,930 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:06:42,953 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:06:42,954 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:06:45,311 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:50,329 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:55,350 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:06:57,936 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:06:57,959 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:06:57,959 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:06:59,930 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:07:00,933 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:05,998 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:11,013 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:12,942 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:07:12,962 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:07:12,963 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:07:16,751 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:18,381 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:07:21,769 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:26,788 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:27,945 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:07:27,961 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:07:27,966 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:07:29,933 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:07:31,937 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:36,954 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:41,970 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:42,949 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:07:42,962 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:07:42,962 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:07:47,134 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:52,157 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:57,168 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:07:57,954 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:07:57,968 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:07:57,969 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:07:59,936 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:08:02,460 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:03,599 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:08:07,477 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:12,511 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:12,953 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:08:12,975 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:08:12,976 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:08:18,236 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:23,245 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:27,976 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:08:27,980 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:08:27,987 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:08:29,140 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:29,942 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:08:34,959 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:39,884 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:08:39,969 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:42,975 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:08:42,976 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:08:42,977 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:08:45,138 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:50,155 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:55,160 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:08:57,983 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:08:57,983 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:08:57,988 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:08:59,949 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:09:00,956 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:04,015 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:09:06,269 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:11,285 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:12,984 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:09:12,984 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:09:12,985 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:09:17,101 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:22,125 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:27,155 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:27,999 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:09:27,999 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:09:27,999 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:09:29,951 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:09:32,960 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:37,980 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:42,217 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:09:43,008 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:09:43,022 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:09:43,030 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:09:43,429 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:48,448 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:53,570 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:58,000 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:09:58,001 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:09:58,012 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:09:59,156 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:09:59,955 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:10:04,966 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:09,976 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:13,016 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:10:13,029 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:10:13,036 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:10:14,323 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:10:15,235 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:20,254 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:25,263 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:28,031 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:10:28,035 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:10:28,045 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:10:29,959 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:10:30,995 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:35,988 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:41,004 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:43,017 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:10:43,018 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:10:43,040 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:10:46,472 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:10:46,490 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:51,510 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:56,526 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:10:58,018 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:10:58,019 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:10:58,039 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:10:59,965 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:11:01,971 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:06,992 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:12,016 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:13,119 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:11:13,119 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:11:13,121 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:11:17,438 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:22,455 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:27,470 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:28,115 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:11:28,116 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:11:28,120 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:11:29,970 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:11:32,978 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:36,706 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:11:38,564 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:43,123 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:11:43,129 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:11:43,130 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:11:44,307 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:49,325 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:54,341 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:11:58,125 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:11:58,129 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:11:58,132 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:11:59,974 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:11:59,977 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:04,987 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:10,616 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:10,852 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:12:13,130 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:12:13,130 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:12:13,132 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:12:16,280 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:21,320 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:26,385 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:28,144 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:12:28,145 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:12:28,146 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:12:29,979 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:12:31,985 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:37,006 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:41,083 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:12:42,790 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:43,147 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:12:43,148 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:12:43,150 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:12:48,243 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:53,253 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:58,146 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:12:58,147 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:12:58,152 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:12:58,356 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:12:59,983 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:13:04,023 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:09,036 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:13,158 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:13:13,158 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:13:13,168 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:13:14,370 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:19,386 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:24,460 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:28,158 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:13:28,164 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:13:28,171 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:13:29,990 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:13:29,991 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:33,283 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:13:35,653 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:40,674 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:43,166 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:13:43,167 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:13:43,168 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:13:46,516 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:51,534 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:56,557 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:13:58,166 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:13:58,168 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:13:58,169 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:13:59,994 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:14:02,010 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:07,018 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:12,043 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:13,171 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:14:13,171 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:14:13,174 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:14:17,446 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:22,485 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:28,168 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:14:28,172 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:14:28,177 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:14:28,465 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:28,543 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:14:29,999 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:14:34,011 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:39,026 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:43,304 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:14:43,305 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:14:43,306 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:14:44,590 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:49,610 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:54,621 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:14:58,307 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:14:58,308 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:14:58,308 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:14:58,723 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:15:00,012 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:15:00,015 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:05,029 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:10,050 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:13,381 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:15:13,383 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:15:13,385 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:15:15,662 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:20,667 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:25,679 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:28,384 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:15:28,384 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:15:28,387 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:15:30,017 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:15:30,859 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:15:31,415 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:36,422 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:41,429 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:43,391 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:15:43,391 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:15:43,392 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:15:46,549 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:51,564 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:54,952 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:15:57,142 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:15:58,399 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:15:58,401 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:15:58,402 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:16:00,039 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:16:03,051 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:08,071 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:13,095 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:13,400 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:16:13,401 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:16:13,401 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:16:18,760 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:19,039 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:16:23,777 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:28,411 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:16:28,412 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:16:28,413 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:16:29,574 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:30,023 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:16:35,030 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:40,047 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:43,428 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:16:43,428 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:16:43,431 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:16:45,529 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:47,148 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:16:50,542 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:55,552 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:16:58,422 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:16:58,423 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:16:58,423 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:17:00,027 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:17:01,029 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:06,033 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:07,202 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:17:11,603 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:13,430 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:17:13,431 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:17:13,434 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:17:16,648 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:21,660 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:26,679 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:28,435 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:17:28,436 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:17:28,438 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:17:29,288 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:17:30,033 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:17:32,038 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:37,053 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:42,071 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:43,437 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:17:43,438 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:17:43,440 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:17:47,644 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:53,383 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:17:53,415 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:58,431 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:17:58,437 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:17:58,437 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:17:58,438 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:18:00,037 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:18:04,052 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:09,065 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:13,445 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:18:13,446 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:18:13,446 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:18:14,544 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:17,472 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:18:19,756 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:24,767 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:28,446 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:18:28,447 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:18:28,448 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:18:30,040 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:18:30,042 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:35,051 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:40,941 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:41,545 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:18:43,454 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:18:43,466 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:18:43,467 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:18:45,969 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:50,973 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:55,985 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:18:58,457 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:18:58,468 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:18:58,469 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:19:00,045 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:19:01,049 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:03,979 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:19:06,558 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:11,588 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:13,461 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:19:13,473 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:19:13,474 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:19:16,660 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:21,688 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:26,718 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:28,463 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:19:28,474 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:19:28,474 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:19:30,049 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:19:32,086 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:37,096 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:42,251 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:43,465 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:19:43,483 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:19:43,484 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:19:47,674 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:52,714 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:57,763 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:19:58,507 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:19:58,510 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:19:58,514 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:20:00,054 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:20:02,791 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:03,363 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:20:07,811 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:12,824 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:13,509 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:20:13,509 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:20:13,510 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:20:18,594 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:23,609 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:28,521 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:20:28,523 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:20:28,525 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:20:28,729 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:30,059 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:20:34,076 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:39,092 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:43,524 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:20:43,525 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:20:43,526 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:20:44,667 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:49,747 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:54,755 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:20:58,523 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:20:58,527 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:20:58,533 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:21:00,065 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:21:00,073 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:03,584 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:21:05,875 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:10,886 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:13,522 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:21:13,524 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:21:13,525 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:21:16,797 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:21,807 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:26,817 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:28,524 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:21:28,525 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:21:28,526 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:21:30,077 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:21:32,082 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:37,132 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:42,144 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:43,532 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:21:43,532 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:21:43,533 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:21:47,755 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:52,776 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:57,795 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:21:58,538 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:21:58,539 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:21:58,540 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:22:00,084 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:22:03,090 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:07,934 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:22:09,039 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:13,545 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:22:13,547 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:22:13,549 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:22:14,742 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:19,757 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:24,774 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:28,546 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:22:28,547 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:22:28,548 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:22:30,090 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:22:30,092 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:35,105 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:38,068 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:22:40,258 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:43,547 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:22:43,548 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:22:43,549 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:22:45,689 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:50,691 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:55,703 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:22:58,554 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:22:58,555 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:22:58,556 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:23:00,089 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:23:01,098 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:23:06,111 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:23:10,184 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:23:12,020 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:23:13,560 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 23:23:13,561 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:23:13,566 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: stop_status
+2024-04-17 23:23:14,281 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-17 23:23:15,551 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-17 23:23:15,619 DEBUG   SenderThread:16005 [sender.py:send():378] send: history
+2024-04-17 23:23:15,765 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: summary_record
+2024-04-17 23:23:15,887 INFO    SenderThread:16005 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-17 23:23:15,889 DEBUG   SenderThread:16005 [sender.py:send():378] send: telemetry
+2024-04-17 23:23:15,889 DEBUG   SenderThread:16005 [sender.py:send():378] send: exit
+2024-04-17 23:23:15,889 INFO    SenderThread:16005 [sender.py:send_exit():585] handling exit code: 0
+2024-04-17 23:23:15,890 INFO    SenderThread:16005 [sender.py:send_exit():587] handling runtime: 1815
+2024-04-17 23:23:15,967 INFO    SenderThread:16005 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-17 23:23:15,968 INFO    SenderThread:16005 [sender.py:send_exit():593] send defer
+2024-04-17 23:23:15,968 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: poll_exit
+2024-04-17 23:23:15,968 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:15,970 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-17 23:23:15,972 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:15,972 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-04-17 23:23:15,972 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 1
+2024-04-17 23:23:15,972 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:15,972 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-17 23:23:15,972 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:15,972 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-04-17 23:23:15,972 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 2
+2024-04-17 23:23:15,972 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:15,972 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-17 23:23:15,973 INFO    HandlerThread:16005 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-17 23:23:15,973 DEBUG   SystemMonitor:16005 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-17 23:23:15,977 INFO    HandlerThread:16005 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-17 23:23:15,977 DEBUG   SystemMonitor:16005 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-17 23:23:15,977 INFO    HandlerThread:16005 [interfaces.py:finish():202] Joined disk monitor
+2024-04-17 23:23:15,978 INFO    HandlerThread:16005 [interfaces.py:finish():202] Joined memory monitor
+2024-04-17 23:23:15,978 INFO    HandlerThread:16005 [interfaces.py:finish():202] Joined network monitor
+2024-04-17 23:23:15,979 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:15,979 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-04-17 23:23:15,979 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 3
+2024-04-17 23:23:15,979 DEBUG   SenderThread:16005 [sender.py:send():378] send: stats
+2024-04-17 23:23:15,979 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:15,979 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-17 23:23:15,979 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:15,980 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-04-17 23:23:15,980 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 4
+2024-04-17 23:23:15,980 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:15,980 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-17 23:23:15,980 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:15,980 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-04-17 23:23:15,980 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 5
+2024-04-17 23:23:15,980 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:15,980 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-17 23:23:16,071 DEBUG   SenderThread:16005 [sender.py:send():378] send: summary
+2024-04-17 23:23:16,188 INFO    SenderThread:16005 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-04-17 23:23:16,190 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:16,190 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-04-17 23:23:16,190 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 6
+2024-04-17 23:23:16,190 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:16,190 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-17 23:23:16,191 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:16,191 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-04-17 23:23:16,198 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 23:23:16,272 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:23:16,272 INFO    Thread-208:16005 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/wandb-summary.json
+2024-04-17 23:23:16,278 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 7
+2024-04-17 23:23:16,278 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:16,278 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-17 23:23:16,279 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:16,279 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-04-17 23:23:16,317 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-17 23:23:17,278 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/config.yaml
+2024-04-17 23:23:17,630 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 8
+2024-04-17 23:23:17,630 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: poll_exit
+2024-04-17 23:23:17,630 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:17,631 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-17 23:23:17,632 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:17,632 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-04-17 23:23:17,632 INFO    SenderThread:16005 [job_builder.py:build():298] Attempting to build job artifact
+2024-04-17 23:23:18,158 INFO    SenderThread:16005 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-04-17 23:23:18,159 INFO    SenderThread:16005 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2024-04-17 23:23:18,175 INFO    SenderThread:16005 [job_builder.py:build():404] adding wandb-job metadata file
+2024-04-17 23:23:18,197 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 9
+2024-04-17 23:23:18,197 DEBUG   SenderThread:16005 [sender.py:send():378] send: artifact
+2024-04-17 23:23:18,197 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:18,202 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-17 23:23:18,284 INFO    Thread-208:16005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:23:18,324 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-17 23:23:18,792 INFO    SenderThread:16005 [sender.py:send_artifact():1443] sent artifact job-git_github.com_samharshe_QM9-Pro.git_main.ipynb - {'id': 'QXJ0aWZhY3Q6ODAwNzI2Njcx', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2Mzc3MjEzMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODAwNzI2Njcx', 'versionIndex': 4}}}
+2024-04-17 23:23:18,793 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:18,794 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-04-17 23:23:18,795 INFO    SenderThread:16005 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-17 23:23:19,287 INFO    SenderThread:16005 [dir_watcher.py:finish():388] scan: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files
+2024-04-17 23:23:19,287 INFO    SenderThread:16005 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/requirements.txt requirements.txt
+2024-04-17 23:23:19,288 INFO    SenderThread:16005 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log output.log
+2024-04-17 23:23:19,288 INFO    SenderThread:16005 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/config.yaml config.yaml
+2024-04-17 23:23:19,290 INFO    SenderThread:16005 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/wandb-summary.json wandb-summary.json
+2024-04-17 23:23:19,291 INFO    SenderThread:16005 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/conda-environment.yaml conda-environment.yaml
+2024-04-17 23:23:19,302 INFO    SenderThread:16005 [dir_watcher.py:finish():402] scan save: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/wandb-metadata.json wandb-metadata.json
+2024-04-17 23:23:19,307 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 10
+2024-04-17 23:23:19,308 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: poll_exit
+2024-04-17 23:23:19,308 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:19,316 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-17 23:23:19,323 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:19,324 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-04-17 23:23:19,324 INFO    SenderThread:16005 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-17 23:23:19,330 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-17 23:23:19,331 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: poll_exit
+2024-04-17 23:23:20,058 INFO    wandb-upload_4:16005 [upload_job.py:push():131] Uploaded file /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/conda-environment.yaml
+2024-04-17 23:23:20,188 INFO    wandb-upload_0:16005 [upload_job.py:push():131] Uploaded file /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/output.log
+2024-04-17 23:23:20,199 INFO    wandb-upload_2:16005 [upload_job.py:push():131] Uploaded file /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/config.yaml
+2024-04-17 23:23:20,204 INFO    wandb-upload_1:16005 [upload_job.py:push():131] Uploaded file /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/requirements.txt
+2024-04-17 23:23:20,331 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-17 23:23:20,332 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: poll_exit
+2024-04-17 23:23:20,968 INFO    wandb-upload_3:16005 [upload_job.py:push():131] Uploaded file /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/files/wandb-summary.json
+2024-04-17 23:23:21,170 INFO    Thread-207 (_thread_body):16005 [sender.py:transition_state():613] send defer: 11
+2024-04-17 23:23:21,170 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:21,171 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-17 23:23:21,172 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:21,172 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-04-17 23:23:21,172 INFO    SenderThread:16005 [file_pusher.py:join():178] waiting for file pusher
+2024-04-17 23:23:21,173 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 12
+2024-04-17 23:23:21,174 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:21,175 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-17 23:23:21,177 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:21,177 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-04-17 23:23:21,177 INFO    SenderThread:16005 [file_stream.py:finish():595] file stream finish called
+2024-04-17 23:23:21,335 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-17 23:23:22,175 INFO    SenderThread:16005 [file_stream.py:finish():599] file stream finish is done
+2024-04-17 23:23:22,175 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 13
+2024-04-17 23:23:22,175 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: poll_exit
+2024-04-17 23:23:22,175 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:22,176 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-17 23:23:22,178 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:22,179 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-04-17 23:23:22,179 INFO    SenderThread:16005 [sender.py:transition_state():613] send defer: 14
+2024-04-17 23:23:22,180 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 23:23:22,180 DEBUG   SenderThread:16005 [sender.py:send():378] send: final
+2024-04-17 23:23:22,180 INFO    HandlerThread:16005 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-17 23:23:22,180 DEBUG   SenderThread:16005 [sender.py:send():378] send: footer
+2024-04-17 23:23:22,181 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: defer
+2024-04-17 23:23:22,181 INFO    SenderThread:16005 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-04-17 23:23:22,182 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-17 23:23:22,183 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: poll_exit
+2024-04-17 23:23:22,189 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 23:23:22,192 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: server_info
+2024-04-17 23:23:22,193 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-17 23:23:22,291 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: server_info
+2024-04-17 23:23:22,351 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-17 23:23:22,351 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: job_info
+2024-04-17 23:23:22,410 DEBUG   SenderThread:16005 [sender.py:send_request():405] send_request: job_info
+2024-04-17 23:23:22,412 DEBUG   HandlerThread:16005 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-17 23:23:22,412 INFO    HandlerThread:16005 [handler.py:finish():869] shutting down handler
+2024-04-17 23:23:23,355 INFO    WriterThread:16005 [datastore.py:close():296] close: /Users/samharshe/Documents/Gerstein Lab/QM9 Pro/wandb/run-20240417_225258-8b27qpya/run-8b27qpya.wandb
+2024-04-17 23:23:23,414 INFO    SenderThread:16005 [sender.py:finish():1521] shutting down sender
+2024-04-17 23:23:23,415 INFO    SenderThread:16005 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-17 23:23:23,415 INFO    SenderThread:16005 [file_pusher.py:join():178] waiting for file pusher
